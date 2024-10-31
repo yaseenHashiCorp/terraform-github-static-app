@@ -18,11 +18,6 @@ variable "gh_token" {
   sensitive   = true
 }
 
-variable "slack_hook_url" {
-  description = "The Slack webhook URL for publishing messages."
-  default     = ""
-}
-
 variable "waypoint_application" {
   type        = string
   description = "Name of the Waypoint application."
